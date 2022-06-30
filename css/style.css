@@ -2,15 +2,115 @@
     Author: Safa Rizwan
     Theme: Restaurant Food Order
 */
+/* CSS for All */
 *{
     margin: 0 0;
     padding: 0 0;
     font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+    --a-color:rgba(100, 55, 18, 0.87);
+}
+:root{
+    --a-hover-color: rgb(255, 196, 1) ;
 }
 .container{
     border: 1px solid red;
     width: 80%;
     margin: 0 auto;
     padding: 1%;
+}
+.container1{
+    /* border: 1px solid red; */
+    /* width: 80%; */
+    margin: 0 auto;
+    padding: 0;
+    background-color: var(--a-hover-color);
+}
+.img-responsive{
+    width: 80%;
+    padding: 0 0;
+}
+.img-curve{
+    border-radius: 15px;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-white{
+    color: white;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+a{
+    color: var(--a-color);  
+    text-decoration: none;
+}
+a:hover{
+    color: var(--a-color);
+    background: var(--a-hover-color) ;
+    font-weight: bolder;
+}
+h1{
+    color: var(--a-color);
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.3rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 26px;
+    left: 30%;
+}
 
+/* CSS for navbar */
+
+.logo{
+    /* border: 1px solid black; */
+     width: 10%;
+     float: left;
+     height: 1px;
+}
+.menu{
+    line-height: 60px;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 2%;
+    font-weight: bolder;
+
+}
+
+
+/* CSS for Food Banner Section */
+.food-banner{
+    background-image: url(/images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30% 0;
+}
+
+/* CSS For Categories */
+.categories{
+    padding: 4% 0;
+}
+.box-3{
+    border: 1px solid black;
+    width: 28%;
+    float: left;
+    margin: 2%;
 }
