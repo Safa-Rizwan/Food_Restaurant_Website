@@ -12,12 +12,12 @@
     --a-color:rgba(100, 55, 18, 0.87);
 }
 :root{
-    --a-hover-color: rgb(255, 196, 1) ;
+    --a-hover-color: rgb(247, 190, 6) ;
 }
 .container{
     border: 1px solid red;
-    width: 80%;
-    margin: 0 auto;
+    width: 85%;
+    margin: 20px auto;
     padding: 1%;
 }
 .container1{
@@ -27,12 +27,15 @@
     padding: 0;
     background-color: var(--a-hover-color);
 }
+.color-container{
+    background-color: var(--a-hover-color);
+}
 .img-responsive{
-    width: 80%;
+    width: 100%;
     padding: 0 0;
 }
 .img-curve{
-    border-radius: 15px;
+    border-radius: 3px;
 }
 .text-right{
     text-align: right;
@@ -40,8 +43,9 @@
 .text-center{
     text-align: center;
 }
-.text-white{
-    color: white;
+.text-brown{
+    color: var(--a-color);
+    font-size: 32px;
 }
 .clearfix{
     clear: both;
@@ -67,9 +71,12 @@ h3{
     position: relative;
 }
 .float-text{
-    position: absolute;
-    bottom: 26px;
-    left: 30%;
+    position: relative;
+    bottom: 0px;
+    left: 35%;
+}
+.text-bg{
+    background-color: white;
 }
 
 /* CSS for navbar */
@@ -109,8 +116,44 @@ h3{
     padding: 4% 0;
 }
 .box-3{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 28%;
     float: left;
     margin: 2%;
+}
+
+/* CSS for Food Menu */
+.food-menu{
+    padding: 4%;
+}
+
+.food-menu-box{
+    border: 1px solid black;
+    width: 43%;
+    margin: 1%;
+    float: left;
+    padding: 2%;
+    background-color: #fff;
+}
+.btn-bg{
+    background-color: var(--a-hover-color);
+    border-radius: 8px;
+    padding: 4px;
+    font-size: 18px;
+}
+.food-menu h4,p{
+    color: var(--a-color);
+}
+.food-menu img{
+    width: 20%;
+    border-radius: 7%;
+    float: left;
+}
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8% ;
+}
+.food-price{
+    font-size: 1.2rem;
 }
