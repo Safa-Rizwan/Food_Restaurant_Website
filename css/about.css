@@ -1,0 +1,19 @@
+/* CSS for About */
+
+.about .container{
+    display: flex;
+    align-items:center ;
+    flex-wrap: wrap;
+}
+.about-img img{
+    width: 70%;
+    height: 50%;
+    margin: 20% 0;
+    /* float: left; */
+    flex: 1 1 45rem;
+    
+}
+.about-detail{
+    /* float: right; */
+    flex: 1 1 45rem;
+}
