@@ -159,14 +159,15 @@ h3:hover{
 }
 .btn-bg{
     background-color: var(--a-hover-color);
-    border-radius: 8px;
-    padding: 4px;
+    border-radius: 10px;
+    padding: 3px;
     font-size: 18px;
+    margin: 2px;
 }
 .food-menu h4,p{
     color: var(--a-color);
 }
-.food-menu img{
+.food-menu-img{
     width: 18%;
     border-radius: 7%;
     float: left;
@@ -195,4 +196,56 @@ h3:hover{
 .social ul li{
     display: inline;
     padding: 1%;
+}
+
+/* CSS for Food SEarch Section */
+
+.food-search{
+    background-image: url(/images/order-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 2%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+legend{
+    font-weight: bolder;
+    font-size: 30px;
+    color: var(--a-color);
+    margin-bottom: 6px;
+}
+
+/* for Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: var(--a-hover-color);
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+    color: var(--a-color);
+    
+}
+
+order-btn{
+    color: var(--a-hover-color);
+    float: right;
 }
