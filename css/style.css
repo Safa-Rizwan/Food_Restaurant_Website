@@ -249,3 +249,47 @@ order-btn{
     color: var(--a-hover-color);
     float: right;
 }
+
+/* Review */
+
+.review .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1rem;
+
+}
+.review .box-container .box{
+    border: var(--a-color);
+    text-align: center;
+    padding: 3rem 2rem;
+
+}
+.review .box-container .box p{
+    font-size: 1rem;
+    line-height: 1;
+    color:var(--a-hover-color);
+    padding: 1rem 0;
+}
+.review .box-container .box .user{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.review .box-container .box h3{
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    color:var(--a-color);
+}
+.review .box-container .box .stars i{
+    font-size: 1.5rem;
+    color:var(--a-color);
+}
+.heading{
+    padding-top: 5rem;
+    text-align: center;
+    color: var(--a-color);
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 3rem;
+}
